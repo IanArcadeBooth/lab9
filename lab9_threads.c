@@ -81,7 +81,7 @@ int main(void)
         pthread_join(threads[i], NULL);
     }
 
-    printf("Result Vector:\n");
+    printf("Result:\n");
 
     for(i = 0; i < SIZE; i++)
     {
